@@ -3,17 +3,11 @@ import { items } from "./data";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
-function Card({ id, title, category, theme }) {
+function Card({ id, title, category, theme, backgroundColor }) {
   return (
     <li className={`card ${theme}`}>
       <div className="card-content-container">
-        <motion.div className="card-content" layoutId={`card-container-${id}`}>
-          <motion.div
-            className="card-image-container"
-            layoutId={`card-image-container-${id}`}
-          >
-            {/* <img className="card-image" src={`images/${id}.jpg`} alt="" /> */}
-          </motion.div>
+        <motion.div className="card-content" layoutId={`card-container-${id}`} style={{background: `${backgroundColor}`}}>
           <motion.div
             className="title-container"
             layoutId={`title-container-${id}`}
@@ -31,8 +25,14 @@ function Card({ id, title, category, theme }) {
 export function List({ selectedId }) {
   return (
     <ul className="card-list">
-      {items.map(card => (
-        <Card key={card.id} {...card} isSelected={card.id === selectedId} />
+      {items.map((card) => (
+        <Card
+          key={card.id}
+          backPage={card.backPage}
+          backgroundColor={card.backgroundColor}
+          {...card}
+          isSelected={card.id === selectedId}
+        />
       ))}
     </ul>
   );

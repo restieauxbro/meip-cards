@@ -6,13 +6,16 @@ import { BrowserRouter as Router, Route } from "react-router-dom";
 
 function Store({ match }) {
   let { id } = match.params;
+  let {backPage} = match.params
   const imageHasLoaded = true;
 
   return (
     <>
       <List selectedId={id} />
       <AnimatePresence>
-        {id && imageHasLoaded && <Item id={id} key="item" />}
+        {id && imageHasLoaded && (
+          <Item id={id} backPage={backPage} key="item" />
+        )}
       </AnimatePresence>
     </>
   );
@@ -22,7 +25,6 @@ export default function App() {
   return (
     <div className="container">
       <AnimateSharedLayout type="crossfade">
-        
         <Router>
           <Route path={["/:id", "/"]} component={Store} />
         </Router>
