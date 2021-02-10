@@ -1,6 +1,5 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { LoremIpsum } from "react-lorem-ipsum";
 import { Link } from "react-router-dom";
 import { items } from "./data";
 
