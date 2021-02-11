@@ -32,7 +32,6 @@ body {
 .container {
   max-width: 990px;
   flex: 1 1 100%;
-  padding: 45px 25px;
 }
 
 h1 {
@@ -206,7 +205,7 @@ h2 {
 p,
 .content-container ul {
   color: #3d3d3d;
-  
+
   line-height: 28px;
 }
 
