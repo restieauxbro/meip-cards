@@ -4,13 +4,20 @@ import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 
 function Card({ id, title, category, theme, backgroundColor }) {
+  
   return (
     <li className={`card ${theme}`}>
       <div className="card-content-container">
-        <motion.div className="card-content" layoutId={`card-container-${id}`} style={{background: `${backgroundColor}`}}>
+        <motion.div
+          className="card-content"
+          layoutId={`card-container-${id}`}
+          style={{ background: `${backgroundColor}` }}
+          
+        >
           <motion.div
             className="title-container"
             layoutId={`title-container-${id}`}
+            
           >
             <span className="category">{category}</span>
             <h2>{title}</h2>
@@ -24,6 +31,8 @@ function Card({ id, title, category, theme, backgroundColor }) {
 
 export function List({ selectedId }) {
   return (
+    <>
+    <p style={{fontSize: 12, paddingLeft: 10}}>Click to see more</p>
     <ul className="card-list">
       {items.map((card) => (
         <Card
@@ -35,5 +44,6 @@ export function List({ selectedId }) {
         />
       ))}
     </ul>
+    </>
   );
 }

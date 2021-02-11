@@ -2,7 +2,7 @@ export const items = [
   // Photo by ivan Torres on Unsplash
   {
     id: "c",
-    category: "Everone recieves",
+    category: "Everyone recieves",
     title: "The induction",
     pointOfInterest: 80,
     backgroundColor: "#21a3d9",
