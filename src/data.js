@@ -9,7 +9,7 @@ export const items = [
     description:
       "Our induction equips learners with the skills, knowledge, and confidence to kick-start their apprenticeship while providing an opportunity to discuss and implement good study practices.",
     backPage:
-      "<p>The induction includes:</p>    <ul>    <li>An apprenticeship overview, which includes training plans, block courses, roles, and responsibilities</li>    <li>Systems training on Canvas and completion of a unit standard</li>    <li>What Competenz support is available and where to find this support</li>    <li>An opportunity to meet the e-assessors</li>    <li>Time management and study skills</li>    <li>The chance to develop and maintain relationships with other apprentices.</li    </ul> ",
+      "<p>Our induction equips learners with the skills, knowledge, and confidence to kick-start their apprenticeship while providing an opportunity to discuss and implement good study practices. <br/> <br/> The induction includes:</p>    <ul>    <li>An apprenticeship overview, which includes training plans, block courses, roles, and responsibilities</li>    <li>Systems training on Canvas and completion of a unit standard</li>    <li>What Competenz support is available and where to find this support</li>    <li>An opportunity to meet the e-assessors</li>    <li>Time management and study skills</li>    <li>The chance to develop and maintain relationships with other apprentices.</li    </ul> ",
   },
   // Photo by Dennis Brendel on Unsplash
   {
@@ -19,7 +19,7 @@ export const items = [
     description: "Our study groups provide an excellent opportunity for group discussion with peers in addition to receiving one-on-one mentoring.",
     pointOfInterest: 120,
     backgroundColor: "#e6007e",
-    backPage: "<p>     Study groups are:</p>    <ul>    <li>A virtual forum via the Zoom platform</li>    <li>Co-facilitated by a mechanical engineering subject matter expert and a literacy and numeracy specialist</li>    <li>Individual training plan support</li>    <li>Engineering drawing support</li>    <li>A focused set study time for learners</li>    <li>Run on a fortnightly basis, each session being two hours in duration</li>    <li>A commitment - enrolled learners are expected to attend every fortnight</li>    </ul>"
+    backPage: "<p> We want to create a learning environment that is collaborative by providing a platform to ask questions and get answers. <br/> <br/>    Study groups are:</p>    <ul>    <li>A virtual forum via the Zoom platform</li>    <li>Co-facilitated by a mechanical engineering subject matter expert and a literacy and numeracy specialist</li>    <li>Individual training plan support</li>    <li>Engineering drawing support</li>    <li>A focused set study time for learners</li>    <li>Run on a fortnightly basis, each session being two hours in duration</li>    <li>A commitment - enrolled learners are expected to attend every fortnight</li>    </ul>"
   },
   // Photo by Alessandra Caretto on Unsplash
   {
@@ -49,7 +49,7 @@ export const items = [
     description: "Our literacy and numeracy programme is set up to ensure learning is accessible to everyone. Competenz has partnered with a network of specialist providers and tutors to support and grow language, literacy, and numeracy skills. We can also provide support for ESOL learners.",
     pointOfInterest: 150,
     backgroundColor: "#fcd400",
-    backPage: "<p>Our literacy and numeracy programme includes:</p>    <ul>    <li>Comprehensive assessment to determine required learning support</li>    <li>Tailored solutions for individual learners.</li>    </ul>    <p>Whether it's through one-on-one support, or part of a wider programme, we make sure learners have the tools they need to stay on top of their education.</p>    ",
+    backPage: "<p>Our literacy and numeracy programme is set up to ensure learning is accessible to everyone. Competenz has partnered with a network of specialist providers and tutors to support and grow language, literacy, and numeracy skills. We can also provide support for ESOL learners. <br/> <br/> Our literacy and numeracy programme includes:</p>    <ul>    <li>Comprehensive assessment to determine required learning support</li>    <li>Tailored solutions for individual learners.</li>    </ul>    <p>Whether it's through one-on-one support, or part of a wider programme, we make sure learners have the tools they need to stay on top of their education.</p>    ",
   },
   // Photo by Siora Photography on Unsplash
   
