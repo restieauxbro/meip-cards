@@ -14,22 +14,22 @@ export const items = [
   // Photo by Dennis Brendel on Unsplash
   {
     id: "f",
-    category: "Some can attend",
+    category: "Open to all",
     title: "Study groups",
     description: "Our study groups provide an excellent opportunity for group discussion with peers in addition to receiving one-on-one mentoring.",
     pointOfInterest: 120,
     backgroundColor: "#e6007e",
-    backPage: "<p>Study groups are:</p>    <ul>    <li>A virtual forum via the Zoom platform</li>    <li>Co-facilitated by a mechanical engineering subject matter expert and a literacy and numeracy specialist</li>    <li>Individual training plan support</li>    <li>Engineering drawing support</li>    <li>A focused set study time for learners</li>    <li>Run on a fortnightly basis, each session being two hours in duration</li>    <li>A commitment - enrolled learners are expected to attend every fortnight</li>    </ul>"
+    backPage: "<p>     Study groups are:</p>    <ul>    <li>A virtual forum via the Zoom platform</li>    <li>Co-facilitated by a mechanical engineering subject matter expert and a literacy and numeracy specialist</li>    <li>Individual training plan support</li>    <li>Engineering drawing support</li>    <li>A focused set study time for learners</li>    <li>Run on a fortnightly basis, each session being two hours in duration</li>    <li>A commitment - enrolled learners are expected to attend every fortnight</li>    </ul>"
   },
   // Photo by Alessandra Caretto on Unsplash
   {
     id: "a",
-    category: "For those who really it need it",
+    category: "Specialised support",
     title: "Mentoring",
     pointOfInterest: 260,
     description: "Our mentoring programme is a valuable opportunity for learners to get comprehensive support over and above their quarterly visit from a training advisor.",
     backgroundColor: "#121773",
-    backPage: "<p>Mentoring includes:</p>    <ul>    <li>Guidance and support from an experienced external mentor</li>    <li>Setting short term goals that work towards achieving quarterly goals set by the training advisor</li>    <li>A focus on good study practices and time management</li>    <li>Help with overcoming any roadblocks and/or barriers</li>    <li>Assistance to access the right support offered by Competenz.</li>    </ul>"
+    backPage: "<p>Mentoring is one-on-one and may occur online in a virtual environment, or through face-to-face visits.    This programme is offered after a six-month review of progress which will assess if additional support is required. <br/> <br/> Mentoring includes:</p>    <ul>    <li>Guidance and support from an experienced external mentor</li>    <li>Setting short term goals that work towards achieving quarterly goals set by the training advisor</li>    <li>A focus on good study practices and time management</li>    <li>Help with overcoming any roadblocks and/or barriers</li>    <li>Assistance to access the right support offered by Competenz.</li>    </ul>"
   },
   // Photo by Taneli Lahtinen on Unsplash
   {
@@ -44,7 +44,7 @@ export const items = [
   // Photo by Simone Hutsch on Unsplash
   {
     id: "d",
-    category: "For specific areas",
+    category: "Specialised support",
     title: "Literacy and numeracy",
     description: "Our literacy and numeracy programme is set up to ensure learning is accessible to everyone. Competenz has partnered with a network of specialist providers and tutors to support and grow language, literacy, and numeracy skills. We can also provide support for ESOL learners.",
     pointOfInterest: 150,

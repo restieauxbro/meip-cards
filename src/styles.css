@@ -6,7 +6,7 @@
 body {
   margin: 0;
   padding: 0;
-  overflow-y: scroll;
+  overflow-y: auto;
   --secondary: rgb(161, 161, 161);
   --divider: #343434;
   color: white;
