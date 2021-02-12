@@ -32,7 +32,7 @@ function Card({ id, title, category, theme, backgroundColor }) {
 export function List({ selectedId }) {
   return (
     <>
-    <p style={{fontSize: 12, paddingLeft: 10}}>Click to see more</p>
+    <p style={{fontSize: 12, paddingLeft: 10}}>click on the boxes below to learn more</p>
     <ul className="card-list">
       {items.map((card) => (
         <Card
